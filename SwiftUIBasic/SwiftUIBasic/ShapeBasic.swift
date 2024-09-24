@@ -30,7 +30,7 @@ struct ShapeBasic: View {
             
             Text("캡슐형")
                 .font(.title)
-            Capsule(style: .circular) // continuous는 쫌더 원형모양이고, circular는 더 원형모양이다.
+            Capsule(style: .continuous) // continuous는 쫌더 원형모양이고, circular는 더 원형모양이다.
                 .stroke(.blue, lineWidth: 30)
                 .frame(width: 200, height: 100, alignment: .center)
             

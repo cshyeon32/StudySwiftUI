@@ -38,7 +38,7 @@ struct GradientBasic: View {
                     AngularGradient(
                         gradient: Gradient(colors: [Color.blue, Color.green]),
                         center: .topLeading,
-                        angle: .degrees(80))
+                        angle: .degrees(150))
                     )
                 .frame(width: 300, height: 200)
         }

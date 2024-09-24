@@ -22,7 +22,8 @@ struct TextBasic: View {
             //폰트 사이즈를 지정하여 사용하면, 고정형
             Text("Text font 지정".uppercased()) //uppercased, lowercased를 사용하여, 대소문자로 만들수 있다.
                 .font(.system(size: 25, weight: .semibold, design: .serif)) //사이즈, 굵기, 폰트를 지정하여 사용할수 있다.
-            Text("멑티라인 멑티라인 멑티라인 멑티라인 멑티라인 멑티라인 멑티라인 멑티라인 멑티라인 멑티라인 멑티라인 멑티라인 멑티라인 멑티라인 멑티라인 멑티라인 멑티라인 ")
+            
+            Text("멑티라인~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
                 .multilineTextAlignment(.center) //leading, center, trailing 을 사용해 글을 정렬할수 있다.
                 .foregroundColor(.accentColor) //글 색상을 지정할수 있다.
             

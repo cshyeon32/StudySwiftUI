@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A17C81D2CA2380F00D7F67A /* VStackBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17C81C2CA2380F00D7F67A /* VStackBasic.swift */; };
+		7A17C81F2CA2391C00D7F67A /* HStackBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17C81E2CA2391C00D7F67A /* HStackBasic.swift */; };
+		7A17C8212CA2396800D7F67A /* ZStackBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17C8202CA2396800D7F67A /* ZStackBasic.swift */; };
+		7A17C8232CA239F100D7F67A /* StackBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17C8222CA239F100D7F67A /* StackBasic.swift */; };
 		7A190EFC2C9DBCFB0058374C /* ShapeBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A190EFB2C9DBCFB0058374C /* ShapeBasic.swift */; };
 		7A190EFE2CA1227B0058374C /* ColorBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A190EFD2CA1227B0058374C /* ColorBasic.swift */; };
 		7A190F002CA125090058374C /* GradientBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A190EFF2CA125090058374C /* GradientBasic.swift */; };
@@ -14,6 +18,7 @@
 		7A190F042CA131DB0058374C /* ImageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A190F032CA131DB0058374C /* ImageBasic.swift */; };
 		7A190F062CA13C450058374C /* FrameBasic1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A190F052CA13C450058374C /* FrameBasic1.swift */; };
 		7A190F082CA13E950058374C /* FrameBasic2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A190F072CA13E950058374C /* FrameBasic2.swift */; };
+		7A190F0A2CA140060058374C /* BackgroundBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A190F092CA140060058374C /* BackgroundBasic.swift */; };
 		7A3FBC832C9CF40500AD6FA5 /* SwiftUIBasicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3FBC822C9CF40500AD6FA5 /* SwiftUIBasicApp.swift */; };
 		7A3FBC852C9CF40500AD6FA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3FBC842C9CF40500AD6FA5 /* ContentView.swift */; };
 		7A3FBC872C9CF40600AD6FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A3FBC862C9CF40600AD6FA5 /* Assets.xcassets */; };
@@ -22,6 +27,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A17C81C2CA2380F00D7F67A /* VStackBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackBasic.swift; sourceTree = "<group>"; };
+		7A17C81E2CA2391C00D7F67A /* HStackBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackBasic.swift; sourceTree = "<group>"; };
+		7A17C8202CA2396800D7F67A /* ZStackBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackBasic.swift; sourceTree = "<group>"; };
+		7A17C8222CA239F100D7F67A /* StackBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackBasic.swift; sourceTree = "<group>"; };
 		7A190EFB2C9DBCFB0058374C /* ShapeBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeBasic.swift; sourceTree = "<group>"; };
 		7A190EFD2CA1227B0058374C /* ColorBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBasic.swift; sourceTree = "<group>"; };
 		7A190EFF2CA125090058374C /* GradientBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBasic.swift; sourceTree = "<group>"; };
@@ -29,6 +38,7 @@
 		7A190F032CA131DB0058374C /* ImageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBasic.swift; sourceTree = "<group>"; };
 		7A190F052CA13C450058374C /* FrameBasic1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBasic1.swift; sourceTree = "<group>"; };
 		7A190F072CA13E950058374C /* FrameBasic2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBasic2.swift; sourceTree = "<group>"; };
+		7A190F092CA140060058374C /* BackgroundBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundBasic.swift; sourceTree = "<group>"; };
 		7A3FBC7F2C9CF40500AD6FA5 /* SwiftUIBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3FBC822C9CF40500AD6FA5 /* SwiftUIBasicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicApp.swift; sourceTree = "<group>"; };
 		7A3FBC842C9CF40500AD6FA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,18 +77,23 @@
 		7A3FBC812C9CF40500AD6FA5 /* SwiftUIBasic */ = {
 			isa = PBXGroup;
 			children = (
-				7A3FBC822C9CF40500AD6FA5 /* SwiftUIBasicApp.swift */,
-				7A3FBC842C9CF40500AD6FA5 /* ContentView.swift */,
 				7A3FBC922C9CF6BD00AD6FA5 /* TextBasic.swift */,
 				7A190EFB2C9DBCFB0058374C /* ShapeBasic.swift */,
 				7A190EFD2CA1227B0058374C /* ColorBasic.swift */,
 				7A190EFF2CA125090058374C /* GradientBasic.swift */,
-				7A3FBC862C9CF40600AD6FA5 /* Assets.xcassets */,
-				7A3FBC882C9CF40600AD6FA5 /* Preview Content */,
 				7A190F012CA12B590058374C /* IconBasic.swift */,
 				7A190F032CA131DB0058374C /* ImageBasic.swift */,
 				7A190F052CA13C450058374C /* FrameBasic1.swift */,
 				7A190F072CA13E950058374C /* FrameBasic2.swift */,
+				7A190F092CA140060058374C /* BackgroundBasic.swift */,
+				7A17C81C2CA2380F00D7F67A /* VStackBasic.swift */,
+				7A17C81E2CA2391C00D7F67A /* HStackBasic.swift */,
+				7A17C8202CA2396800D7F67A /* ZStackBasic.swift */,
+				7A17C8222CA239F100D7F67A /* StackBasic.swift */,
+				7A3FBC822C9CF40500AD6FA5 /* SwiftUIBasicApp.swift */,
+				7A3FBC842C9CF40500AD6FA5 /* ContentView.swift */,
+				7A3FBC862C9CF40600AD6FA5 /* Assets.xcassets */,
+				7A3FBC882C9CF40600AD6FA5 /* Preview Content */,
 			);
 			path = SwiftUIBasic;
 			sourceTree = "<group>";
@@ -169,8 +184,13 @@
 				7A3FBC852C9CF40500AD6FA5 /* ContentView.swift in Sources */,
 				7A190EFC2C9DBCFB0058374C /* ShapeBasic.swift in Sources */,
 				7A190EFE2CA1227B0058374C /* ColorBasic.swift in Sources */,
+				7A17C81F2CA2391C00D7F67A /* HStackBasic.swift in Sources */,
+				7A190F0A2CA140060058374C /* BackgroundBasic.swift in Sources */,
+				7A17C8212CA2396800D7F67A /* ZStackBasic.swift in Sources */,
+				7A17C8232CA239F100D7F67A /* StackBasic.swift in Sources */,
 				7A3FBC832C9CF40500AD6FA5 /* SwiftUIBasicApp.swift in Sources */,
 				7A190F062CA13C450058374C /* FrameBasic1.swift in Sources */,
+				7A17C81D2CA2380F00D7F67A /* VStackBasic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
