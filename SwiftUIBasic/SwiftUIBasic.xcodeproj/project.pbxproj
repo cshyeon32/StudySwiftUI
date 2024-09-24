@@ -13,6 +13,9 @@
 		7A17C8232CA239F100D7F67A /* StackBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17C8222CA239F100D7F67A /* StackBasic.swift */; };
 		7A17C8252CA23F1500D7F67A /* PaddingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17C8242CA23F1500D7F67A /* PaddingBasic.swift */; };
 		7A17C8272CA2459900D7F67A /* SpacerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17C8262CA2459900D7F67A /* SpacerBasic.swift */; };
+		7A17C8292CA2486100D7F67A /* VScrollViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17C8282CA2486100D7F67A /* VScrollViewBasic.swift */; };
+		7A17C82B2CA24A6400D7F67A /* HScrollViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17C82A2CA24A6400D7F67A /* HScrollViewBasic.swift */; };
+		7A17C82D2CA24AC600D7F67A /* ScrollViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17C82C2CA24AC600D7F67A /* ScrollViewBasic.swift */; };
 		7A190EFC2C9DBCFB0058374C /* ShapeBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A190EFB2C9DBCFB0058374C /* ShapeBasic.swift */; };
 		7A190EFE2CA1227B0058374C /* ColorBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A190EFD2CA1227B0058374C /* ColorBasic.swift */; };
 		7A190F002CA125090058374C /* GradientBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A190EFF2CA125090058374C /* GradientBasic.swift */; };
@@ -35,6 +38,9 @@
 		7A17C8222CA239F100D7F67A /* StackBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackBasic.swift; sourceTree = "<group>"; };
 		7A17C8242CA23F1500D7F67A /* PaddingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingBasic.swift; sourceTree = "<group>"; };
 		7A17C8262CA2459900D7F67A /* SpacerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerBasic.swift; sourceTree = "<group>"; };
+		7A17C8282CA2486100D7F67A /* VScrollViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VScrollViewBasic.swift; sourceTree = "<group>"; };
+		7A17C82A2CA24A6400D7F67A /* HScrollViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HScrollViewBasic.swift; sourceTree = "<group>"; };
+		7A17C82C2CA24AC600D7F67A /* ScrollViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBasic.swift; sourceTree = "<group>"; };
 		7A190EFB2C9DBCFB0058374C /* ShapeBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeBasic.swift; sourceTree = "<group>"; };
 		7A190EFD2CA1227B0058374C /* ColorBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBasic.swift; sourceTree = "<group>"; };
 		7A190EFF2CA125090058374C /* GradientBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBasic.swift; sourceTree = "<group>"; };
@@ -96,6 +102,9 @@
 				7A17C8222CA239F100D7F67A /* StackBasic.swift */,
 				7A17C8242CA23F1500D7F67A /* PaddingBasic.swift */,
 				7A17C8262CA2459900D7F67A /* SpacerBasic.swift */,
+				7A17C8282CA2486100D7F67A /* VScrollViewBasic.swift */,
+				7A17C82A2CA24A6400D7F67A /* HScrollViewBasic.swift */,
+				7A17C82C2CA24AC600D7F67A /* ScrollViewBasic.swift */,
 				7A3FBC822C9CF40500AD6FA5 /* SwiftUIBasicApp.swift */,
 				7A3FBC842C9CF40500AD6FA5 /* ContentView.swift */,
 				7A3FBC862C9CF40600AD6FA5 /* Assets.xcassets */,
@@ -183,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A190F042CA131DB0058374C /* ImageBasic.swift in Sources */,
+				7A17C82B2CA24A6400D7F67A /* HScrollViewBasic.swift in Sources */,
 				7A190F002CA125090058374C /* GradientBasic.swift in Sources */,
 				7A190F022CA12B590058374C /* IconBasic.swift in Sources */,
 				7A190F082CA13E950058374C /* FrameBasic2.swift in Sources */,
@@ -194,6 +204,8 @@
 				7A190EFE2CA1227B0058374C /* ColorBasic.swift in Sources */,
 				7A17C81F2CA2391C00D7F67A /* HStackBasic.swift in Sources */,
 				7A190F0A2CA140060058374C /* BackgroundBasic.swift in Sources */,
+				7A17C82D2CA24AC600D7F67A /* ScrollViewBasic.swift in Sources */,
+				7A17C8292CA2486100D7F67A /* VScrollViewBasic.swift in Sources */,
 				7A17C8212CA2396800D7F67A /* ZStackBasic.swift in Sources */,
 				7A17C8232CA239F100D7F67A /* StackBasic.swift in Sources */,
 				7A3FBC832C9CF40500AD6FA5 /* SwiftUIBasicApp.swift in Sources */,
