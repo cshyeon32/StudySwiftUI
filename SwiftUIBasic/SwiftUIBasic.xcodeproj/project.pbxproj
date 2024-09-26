@@ -16,6 +16,7 @@
 		7A17C8292CA2486100D7F67A /* VScrollViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17C8282CA2486100D7F67A /* VScrollViewBasic.swift */; };
 		7A17C82B2CA24A6400D7F67A /* HScrollViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17C82A2CA24A6400D7F67A /* HScrollViewBasic.swift */; };
 		7A17C82D2CA24AC600D7F67A /* ScrollViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17C82C2CA24AC600D7F67A /* ScrollViewBasic.swift */; };
+		7A17C82F2CA24E4B00D7F67A /* InitEnumBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17C82E2CA24E4B00D7F67A /* InitEnumBasic.swift */; };
 		7A190EFC2C9DBCFB0058374C /* ShapeBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A190EFB2C9DBCFB0058374C /* ShapeBasic.swift */; };
 		7A190EFE2CA1227B0058374C /* ColorBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A190EFD2CA1227B0058374C /* ColorBasic.swift */; };
 		7A190F002CA125090058374C /* GradientBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A190EFF2CA125090058374C /* GradientBasic.swift */; };
@@ -29,6 +30,7 @@
 		7A3FBC872C9CF40600AD6FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A3FBC862C9CF40600AD6FA5 /* Assets.xcassets */; };
 		7A3FBC8A2C9CF40600AD6FA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A3FBC892C9CF40600AD6FA5 /* Preview Assets.xcassets */; };
 		7A3FBC932C9CF6BD00AD6FA5 /* TextBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3FBC922C9CF6BD00AD6FA5 /* TextBasic.swift */; };
+		7ADEB4162CA4DC0D00C917AC /* ForEachLoopBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB4152CA4DC0D00C917AC /* ForEachLoopBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,7 @@
 		7A17C8282CA2486100D7F67A /* VScrollViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VScrollViewBasic.swift; sourceTree = "<group>"; };
 		7A17C82A2CA24A6400D7F67A /* HScrollViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HScrollViewBasic.swift; sourceTree = "<group>"; };
 		7A17C82C2CA24AC600D7F67A /* ScrollViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBasic.swift; sourceTree = "<group>"; };
+		7A17C82E2CA24E4B00D7F67A /* InitEnumBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitEnumBasic.swift; sourceTree = "<group>"; };
 		7A190EFB2C9DBCFB0058374C /* ShapeBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeBasic.swift; sourceTree = "<group>"; };
 		7A190EFD2CA1227B0058374C /* ColorBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBasic.swift; sourceTree = "<group>"; };
 		7A190EFF2CA125090058374C /* GradientBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBasic.swift; sourceTree = "<group>"; };
@@ -55,6 +58,7 @@
 		7A3FBC862C9CF40600AD6FA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A3FBC892C9CF40600AD6FA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A3FBC922C9CF6BD00AD6FA5 /* TextBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBasic.swift; sourceTree = "<group>"; };
+		7ADEB4152CA4DC0D00C917AC /* ForEachLoopBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLoopBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				7A17C8282CA2486100D7F67A /* VScrollViewBasic.swift */,
 				7A17C82A2CA24A6400D7F67A /* HScrollViewBasic.swift */,
 				7A17C82C2CA24AC600D7F67A /* ScrollViewBasic.swift */,
+				7A17C82E2CA24E4B00D7F67A /* InitEnumBasic.swift */,
+				7ADEB4152CA4DC0D00C917AC /* ForEachLoopBasic.swift */,
 				7A3FBC822C9CF40500AD6FA5 /* SwiftUIBasicApp.swift */,
 				7A3FBC842C9CF40500AD6FA5 /* ContentView.swift */,
 				7A3FBC862C9CF40600AD6FA5 /* Assets.xcassets */,
@@ -200,12 +206,14 @@
 				7A3FBC852C9CF40500AD6FA5 /* ContentView.swift in Sources */,
 				7A17C8272CA2459900D7F67A /* SpacerBasic.swift in Sources */,
 				7A17C8252CA23F1500D7F67A /* PaddingBasic.swift in Sources */,
+				7ADEB4162CA4DC0D00C917AC /* ForEachLoopBasic.swift in Sources */,
 				7A190EFC2C9DBCFB0058374C /* ShapeBasic.swift in Sources */,
 				7A190EFE2CA1227B0058374C /* ColorBasic.swift in Sources */,
 				7A17C81F2CA2391C00D7F67A /* HStackBasic.swift in Sources */,
 				7A190F0A2CA140060058374C /* BackgroundBasic.swift in Sources */,
 				7A17C82D2CA24AC600D7F67A /* ScrollViewBasic.swift in Sources */,
 				7A17C8292CA2486100D7F67A /* VScrollViewBasic.swift in Sources */,
+				7A17C82F2CA24E4B00D7F67A /* InitEnumBasic.swift in Sources */,
 				7A17C8212CA2396800D7F67A /* ZStackBasic.swift in Sources */,
 				7A17C8232CA239F100D7F67A /* StackBasic.swift in Sources */,
 				7A3FBC832C9CF40500AD6FA5 /* SwiftUIBasicApp.swift in Sources */,
