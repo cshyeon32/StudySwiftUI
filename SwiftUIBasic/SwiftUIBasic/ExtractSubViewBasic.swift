@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ExtractSubView: View {
+struct ExtractSubViewBasic: View {
     var body: some View {
         ZStack{
             Color.cyan
@@ -28,5 +28,5 @@ struct ExtractSubView: View {
 }
 
 #Preview {
-    ExtractSubView()
+    ExtractSubViewBasic()
 }

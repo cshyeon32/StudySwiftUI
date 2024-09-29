@@ -37,8 +37,10 @@
 		7ADEB41E2CA4F10600C917AC /* ButtonBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB41D2CA4F10600C917AC /* ButtonBasic.swift */; };
 		7ADEB4202CA5BA1800C917AC /* StateBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB41F2CA5BA1800C917AC /* StateBasic.swift */; };
 		7ADEB4222CA5BE3600C917AC /* ExtractViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB4212CA5BE3600C917AC /* ExtractViewBasic.swift */; };
-		7ADEB4242CA5CAC800C917AC /* ExtractSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB4232CA5CAC800C917AC /* ExtractSubView.swift */; };
+		7ADEB4242CA5CAC800C917AC /* ExtractSubViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB4232CA5CAC800C917AC /* ExtractSubViewBasic.swift */; };
 		7ADEB4272CA5CB3C00C917AC /* ItemBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB4262CA5CB3C00C917AC /* ItemBasic.swift */; };
+		7ADEB4292CA67CDB00C917AC /* BindingChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB4282CA67CDB00C917AC /* BindingChild.swift */; };
+		7ADEB42B2CA9BF1100C917AC /* BindingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB42A2CA9BF1100C917AC /* BindingBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,8 +75,10 @@
 		7ADEB41D2CA4F10600C917AC /* ButtonBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBasic.swift; sourceTree = "<group>"; };
 		7ADEB41F2CA5BA1800C917AC /* StateBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBasic.swift; sourceTree = "<group>"; };
 		7ADEB4212CA5BE3600C917AC /* ExtractViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractViewBasic.swift; sourceTree = "<group>"; };
-		7ADEB4232CA5CAC800C917AC /* ExtractSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubView.swift; sourceTree = "<group>"; };
+		7ADEB4232CA5CAC800C917AC /* ExtractSubViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubViewBasic.swift; sourceTree = "<group>"; };
 		7ADEB4262CA5CB3C00C917AC /* ItemBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemBasic.swift; sourceTree = "<group>"; };
+		7ADEB4282CA67CDB00C917AC /* BindingChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingChild.swift; sourceTree = "<group>"; };
+		7ADEB42A2CA9BF1100C917AC /* BindingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +137,8 @@
 				7ADEB41D2CA4F10600C917AC /* ButtonBasic.swift */,
 				7ADEB41F2CA5BA1800C917AC /* StateBasic.swift */,
 				7ADEB4212CA5BE3600C917AC /* ExtractViewBasic.swift */,
-				7ADEB4232CA5CAC800C917AC /* ExtractSubView.swift */,
+				7ADEB4232CA5CAC800C917AC /* ExtractSubViewBasic.swift */,
+				7ADEB42A2CA9BF1100C917AC /* BindingBasic.swift */,
 				7ADEB4252CA5CB0F00C917AC /* Component */,
 				7A3FBC822C9CF40500AD6FA5 /* SwiftUIBasicApp.swift */,
 				7A3FBC842C9CF40500AD6FA5 /* ContentView.swift */,
@@ -155,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				7ADEB4262CA5CB3C00C917AC /* ItemBasic.swift */,
+				7ADEB4282CA67CDB00C917AC /* BindingChild.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -236,8 +242,10 @@
 				7A190F022CA12B590058374C /* IconBasic.swift in Sources */,
 				7A190F082CA13E950058374C /* FrameBasic2.swift in Sources */,
 				7A3FBC932C9CF6BD00AD6FA5 /* TextBasic.swift in Sources */,
-				7ADEB4242CA5CAC800C917AC /* ExtractSubView.swift in Sources */,
+				7ADEB4242CA5CAC800C917AC /* ExtractSubViewBasic.swift in Sources */,
 				7A3FBC852C9CF40500AD6FA5 /* ContentView.swift in Sources */,
+				7ADEB4292CA67CDB00C917AC /* BindingChild.swift in Sources */,
+				7ADEB42B2CA9BF1100C917AC /* BindingBasic.swift in Sources */,
 				7ADEB41A2CA4EBC900C917AC /* LazyHGridBasic.swift in Sources */,
 				7A17C8272CA2459900D7F67A /* SpacerBasic.swift in Sources */,
 				7ADEB4222CA5BE3600C917AC /* ExtractViewBasic.swift in Sources */,
