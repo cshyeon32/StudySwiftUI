@@ -43,6 +43,7 @@
 		7ADEB42B2CA9BF1100C917AC /* BindingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB42A2CA9BF1100C917AC /* BindingBasic.swift */; };
 		7ADEB42D2CA9D08500C917AC /* ConditionalBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB42C2CA9D08500C917AC /* ConditionalBasic.swift */; };
 		7ADEB42F2CA9D47400C917AC /* TernaryBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB42E2CA9D47400C917AC /* TernaryBasic.swift */; };
+		7ADEB4352CA9DB3800C917AC /* AnimationBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB4342CA9DB3800C917AC /* AnimationBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +84,7 @@
 		7ADEB42A2CA9BF1100C917AC /* BindingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBasic.swift; sourceTree = "<group>"; };
 		7ADEB42C2CA9D08500C917AC /* ConditionalBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalBasic.swift; sourceTree = "<group>"; };
 		7ADEB42E2CA9D47400C917AC /* TernaryBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryBasic.swift; sourceTree = "<group>"; };
+		7ADEB4342CA9DB3800C917AC /* AnimationBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				7ADEB42A2CA9BF1100C917AC /* BindingBasic.swift */,
 				7ADEB42C2CA9D08500C917AC /* ConditionalBasic.swift */,
 				7ADEB42E2CA9D47400C917AC /* TernaryBasic.swift */,
+				7ADEB4342CA9DB3800C917AC /* AnimationBasic.swift */,
 				7ADEB4252CA5CB0F00C917AC /* Component */,
 				7A3FBC822C9CF40500AD6FA5 /* SwiftUIBasicApp.swift */,
 				7A3FBC842C9CF40500AD6FA5 /* ContentView.swift */,
@@ -265,6 +268,7 @@
 				7A17C81F2CA2391C00D7F67A /* HStackBasic.swift in Sources */,
 				7A190F0A2CA140060058374C /* BackgroundBasic.swift in Sources */,
 				7A17C82D2CA24AC600D7F67A /* ScrollViewBasic.swift in Sources */,
+				7ADEB4352CA9DB3800C917AC /* AnimationBasic.swift in Sources */,
 				7A17C8292CA2486100D7F67A /* VScrollViewBasic.swift in Sources */,
 				7ADEB4202CA5BA1800C917AC /* StateBasic.swift in Sources */,
 				7ADEB41E2CA4F10600C917AC /* ButtonBasic.swift in Sources */,

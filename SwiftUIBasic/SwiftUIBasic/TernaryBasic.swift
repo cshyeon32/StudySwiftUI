@@ -52,6 +52,7 @@ struct TernaryBasic: View {
                 .frame(width: isStaringState ? 200 : 50,
                        height: isStaringState ? 400 : 100)
         }
+        Spacer()
     }
 }
 
