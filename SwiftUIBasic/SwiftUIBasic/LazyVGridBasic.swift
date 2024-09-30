@@ -19,7 +19,6 @@ struct LazyVGridBasic: View {
     var body: some View {
         //LazyVGrid
         ScrollView{
-            
             Rectangle()
                 .fill(Color.orange)
                 .frame(height: 400)

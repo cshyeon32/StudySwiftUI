@@ -25,47 +25,39 @@ struct ConditionalBasic: View {
             if isLoding {
                 ProgressView() //로딩 뷰
             }
-            
             //원형 버튼
             Button{
                 showCircle.toggle()
             } label: {
                 Text("원형 버튼: \(showCircle.description)")
             }
-            
-            
             //사각형 버튼
             Button{
                 showRectangel.toggle()
             } label: {
                 Text("사각형 버튼: \(showRectangel.description)")
             }
-            
             //showCircle이 true일때
             if showCircle {
                 Circle()
                     .frame(width: 100, height: 100)
             }
-            
             //showRectangel이 true일때
             if showRectangel {
                 Rectangle()
                     .frame(width: 100, height: 100)
             }
-            
             //showCircle과 showRectangel이 false일때
             if showCircle == false && showRectangel == false { //!showCircle && !showRectangel
                 RoundedRectangle(cornerRadius: 25)
                     .frame(width: 200, height: 100)
             }
-            
             //showCircle 또는 showRectangel이 true일때
             if showCircle || showRectangel {
                 RoundedRectangle(cornerRadius: 25)
                     .fill(Color.pink)
                     .frame(width: 200, height: 100)
             }
-            
             Spacer()
         }
     }

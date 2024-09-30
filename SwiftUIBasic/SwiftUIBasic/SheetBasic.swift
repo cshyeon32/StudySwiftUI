@@ -27,9 +27,9 @@ struct SheetBasic: View {
                     .background(Color.white)
                     .cornerRadius(10)
             }
-//            .sheet(isPresented: $showSheet) {
-//                ShapeBasic2()
-//            }
+            .sheet(isPresented: $showSheet) {
+                SheetBasic2()
+            }
             
 //            .fullScreenCover(isPresented: $showSheet, content: {
 //            Text("hello")

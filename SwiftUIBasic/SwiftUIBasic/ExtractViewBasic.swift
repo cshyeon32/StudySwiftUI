@@ -8,14 +8,11 @@
 import SwiftUI
 
 struct ExtractViewBasic: View {
-    
     @State var backgroundColor: Color = Color.pink
-    
     var body: some View {
         ZStack{
             backgroundColor
                 .ignoresSafeArea()
-            
             //content
             contentLayer
         }

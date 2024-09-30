@@ -25,7 +25,7 @@ struct PaddingBasic: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(.bottom, 20)
             
-            Text("안녕하세요 집에 너무 가고 싶어요, 피곤한데 할일은 왜 이렇게 많은지, 팀원들은 뭐 하고 있는지 궁금하네요. 얼른 집에가서 자고 싶어요.. 아무것도 안해도 괜찮으니 자고 싶어요....너무 피곤해요")
+            Text("안녕하세요 지금 padding 공부를 하고 있어요. 해외여행을 가고싶어요 얼른 방학이 오면 좋겠어요")
         }
         .padding()
         .padding(.vertical, 30)
