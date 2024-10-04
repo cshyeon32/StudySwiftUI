@@ -9,7 +9,6 @@ import SwiftUI
 
 struct SheetBasic2: View {
     
-//    @Binding var
     @Environment(\.presentationMode) var presentationMode //현재 바인딩 된 프리젠테이션을 찾아내 나다낸것
     
     var body: some View {

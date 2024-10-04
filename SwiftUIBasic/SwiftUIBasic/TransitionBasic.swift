@@ -31,17 +31,17 @@ struct TransitionBasic: View {
             
             if showTrasition {
                 RoundedRectangle(cornerRadius: 30)
-                    .frame(height: UIScreen.main.bounds.height * 0.5)
-                    .opacity(showTrasition ? 1.0 : 0.0)
+//                    .frame(height: UIScreen.main.bounds.height * 0.5)
+//                    .opacity(showTrasition ? 1.0 : 0.0)
                     
                 //1 move transition
-                    .transition(.move(edge: .bottom))
+//                    .transition(.move(edge: .bottom))
                 
                 //2 opacity transition
-                    .transition(.opacity)
+//                    .transition(.opacity)
                 
                 //scale transition
-                    .transition(.scale)
+//                    .transition(.scale)
                 
                 //asymmetric transition
                     .transition(.asymmetric(insertion: .move(edge: .leading), removal: .move(edge: .trailing)))

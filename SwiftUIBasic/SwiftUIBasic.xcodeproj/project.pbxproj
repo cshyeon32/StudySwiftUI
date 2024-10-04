@@ -30,6 +30,7 @@
 		7A3FBC872C9CF40600AD6FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A3FBC862C9CF40600AD6FA5 /* Assets.xcassets */; };
 		7A3FBC8A2C9CF40600AD6FA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A3FBC892C9CF40600AD6FA5 /* Preview Assets.xcassets */; };
 		7A3FBC932C9CF6BD00AD6FA5 /* TextBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3FBC922C9CF6BD00AD6FA5 /* TextBasic.swift */; };
+		7A8344002CB029990002DE1F /* ContextMenuBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8343FF2CB029990002DE1F /* ContextMenuBasic.swift */; };
 		7ADEB4162CA4DC0D00C917AC /* ForEachLoopBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB4152CA4DC0D00C917AC /* ForEachLoopBasic.swift */; };
 		7ADEB4182CA4DE5900C917AC /* LazyVGridBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB4172CA4DE5900C917AC /* LazyVGridBasic.swift */; };
 		7ADEB41A2CA4EBC900C917AC /* LazyHGridBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB4192CA4EBC800C917AC /* LazyHGridBasic.swift */; };
@@ -47,6 +48,10 @@
 		7ADEB4372CA9E06E00C917AC /* TransitionBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB4362CA9E06E00C917AC /* TransitionBasic.swift */; };
 		7ADEB4392CA9E36100C917AC /* SheetBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB4382CA9E36100C917AC /* SheetBasic.swift */; };
 		7ADEB43B2CA9E4DC00C917AC /* SheetBasic2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB43A2CA9E4DC00C917AC /* SheetBasic2.swift */; };
+		7ADEB43D2CAC19B700C917AC /* NavigationBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB43C2CAC19B700C917AC /* NavigationBasic.swift */; };
+		7ADEB43F2CAC1B1F00C917AC /* SecondNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB43E2CAC1B1F00C917AC /* SecondNavigationView.swift */; };
+		7ADEB4412CACF40C00C917AC /* ListBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB4402CACF40C00C917AC /* ListBasic.swift */; };
+		7ADEB4432CAD05EC00C917AC /* AlertBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB4422CAD05EC00C917AC /* AlertBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +79,7 @@
 		7A3FBC862C9CF40600AD6FA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A3FBC892C9CF40600AD6FA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A3FBC922C9CF6BD00AD6FA5 /* TextBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBasic.swift; sourceTree = "<group>"; };
+		7A8343FF2CB029990002DE1F /* ContextMenuBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBasic.swift; sourceTree = "<group>"; };
 		7ADEB4152CA4DC0D00C917AC /* ForEachLoopBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLoopBasic.swift; sourceTree = "<group>"; };
 		7ADEB4172CA4DE5900C917AC /* LazyVGridBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridBasic.swift; sourceTree = "<group>"; };
 		7ADEB4192CA4EBC800C917AC /* LazyHGridBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGridBasic.swift; sourceTree = "<group>"; };
@@ -91,6 +97,10 @@
 		7ADEB4362CA9E06E00C917AC /* TransitionBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionBasic.swift; sourceTree = "<group>"; };
 		7ADEB4382CA9E36100C917AC /* SheetBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetBasic.swift; sourceTree = "<group>"; };
 		7ADEB43A2CA9E4DC00C917AC /* SheetBasic2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetBasic2.swift; sourceTree = "<group>"; };
+		7ADEB43C2CAC19B700C917AC /* NavigationBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBasic.swift; sourceTree = "<group>"; };
+		7ADEB43E2CAC1B1F00C917AC /* SecondNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondNavigationView.swift; sourceTree = "<group>"; };
+		7ADEB4402CACF40C00C917AC /* ListBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBasic.swift; sourceTree = "<group>"; };
+		7ADEB4422CAD05EC00C917AC /* AlertBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +167,11 @@
 				7ADEB4362CA9E06E00C917AC /* TransitionBasic.swift */,
 				7ADEB4382CA9E36100C917AC /* SheetBasic.swift */,
 				7ADEB43A2CA9E4DC00C917AC /* SheetBasic2.swift */,
+				7ADEB43C2CAC19B700C917AC /* NavigationBasic.swift */,
+				7ADEB43E2CAC1B1F00C917AC /* SecondNavigationView.swift */,
+				7ADEB4402CACF40C00C917AC /* ListBasic.swift */,
+				7ADEB4422CAD05EC00C917AC /* AlertBasic.swift */,
+				7A8343FF2CB029990002DE1F /* ContextMenuBasic.swift */,
 				7ADEB4252CA5CB0F00C917AC /* Component */,
 				7A3FBC822C9CF40500AD6FA5 /* SwiftUIBasicApp.swift */,
 				7A3FBC842C9CF40500AD6FA5 /* ContentView.swift */,
@@ -256,6 +271,7 @@
 				7A190F042CA131DB0058374C /* ImageBasic.swift in Sources */,
 				7A17C82B2CA24A6400D7F67A /* HScrollViewBasic.swift in Sources */,
 				7ADEB41C2CA4EF4A00C917AC /* IgnoreSafeAreaBasic.swift in Sources */,
+				7ADEB4432CAD05EC00C917AC /* AlertBasic.swift in Sources */,
 				7ADEB4392CA9E36100C917AC /* SheetBasic.swift in Sources */,
 				7A190F002CA125090058374C /* GradientBasic.swift in Sources */,
 				7ADEB43B2CA9E4DC00C917AC /* SheetBasic2.swift in Sources */,
@@ -265,7 +281,9 @@
 				7ADEB4242CA5CAC800C917AC /* ExtractSubViewBasic.swift in Sources */,
 				7A3FBC852C9CF40500AD6FA5 /* ContentView.swift in Sources */,
 				7ADEB4292CA67CDB00C917AC /* BindingChild.swift in Sources */,
+				7ADEB43D2CAC19B700C917AC /* NavigationBasic.swift in Sources */,
 				7ADEB42F2CA9D47400C917AC /* TernaryBasic.swift in Sources */,
+				7A8344002CB029990002DE1F /* ContextMenuBasic.swift in Sources */,
 				7ADEB42B2CA9BF1100C917AC /* BindingBasic.swift in Sources */,
 				7ADEB41A2CA4EBC900C917AC /* LazyHGridBasic.swift in Sources */,
 				7ADEB42D2CA9D08500C917AC /* ConditionalBasic.swift in Sources */,
@@ -280,6 +298,8 @@
 				7A190F0A2CA140060058374C /* BackgroundBasic.swift in Sources */,
 				7A17C82D2CA24AC600D7F67A /* ScrollViewBasic.swift in Sources */,
 				7ADEB4352CA9DB3800C917AC /* AnimationBasic.swift in Sources */,
+				7ADEB43F2CAC1B1F00C917AC /* SecondNavigationView.swift in Sources */,
+				7ADEB4412CACF40C00C917AC /* ListBasic.swift in Sources */,
 				7A17C8292CA2486100D7F67A /* VScrollViewBasic.swift in Sources */,
 				7ADEB4202CA5BA1800C917AC /* StateBasic.swift in Sources */,
 				7ADEB41E2CA4F10600C917AC /* ButtonBasic.swift in Sources */,

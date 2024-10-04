@@ -108,7 +108,6 @@ struct AnimationBasic3: View {
             }
             RoundedRectangle(cornerRadius: 20)
                 .frame(width: isAnimated ? 350 : 50, height: 100)
-
         }
     }
 }
