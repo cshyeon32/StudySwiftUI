@@ -31,6 +31,12 @@
 		7A3FBC8A2C9CF40600AD6FA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A3FBC892C9CF40600AD6FA5 /* Preview Assets.xcassets */; };
 		7A3FBC932C9CF6BD00AD6FA5 /* TextBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3FBC922C9CF6BD00AD6FA5 /* TextBasic.swift */; };
 		7A8344002CB029990002DE1F /* ContextMenuBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8343FF2CB029990002DE1F /* ContextMenuBasic.swift */; };
+		7A8344022CB02BFA0002DE1F /* ActionSheetBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8344012CB02BFA0002DE1F /* ActionSheetBasic.swift */; };
+		7A8344042CB02CDC0002DE1F /* TextFieldBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8344032CB02CDC0002DE1F /* TextFieldBasic.swift */; };
+		7A8344062CB02F0A0002DE1F /* ToggleBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8344052CB02F0A0002DE1F /* ToggleBasic.swift */; };
+		7A8344082CB0300A0002DE1F /* PickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8344072CB0300A0002DE1F /* PickerBasic.swift */; };
+		7A83440A2CB0310E0002DE1F /* ColorPickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8344092CB0310E0002DE1F /* ColorPickerBasic.swift */; };
+		7A83440C2CB031390002DE1F /* DatePickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83440B2CB031390002DE1F /* DatePickerBasic.swift */; };
 		7ADEB4162CA4DC0D00C917AC /* ForEachLoopBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB4152CA4DC0D00C917AC /* ForEachLoopBasic.swift */; };
 		7ADEB4182CA4DE5900C917AC /* LazyVGridBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB4172CA4DE5900C917AC /* LazyVGridBasic.swift */; };
 		7ADEB41A2CA4EBC900C917AC /* LazyHGridBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB4192CA4EBC800C917AC /* LazyHGridBasic.swift */; };
@@ -80,6 +86,12 @@
 		7A3FBC892C9CF40600AD6FA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A3FBC922C9CF6BD00AD6FA5 /* TextBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBasic.swift; sourceTree = "<group>"; };
 		7A8343FF2CB029990002DE1F /* ContextMenuBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBasic.swift; sourceTree = "<group>"; };
+		7A8344012CB02BFA0002DE1F /* ActionSheetBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetBasic.swift; sourceTree = "<group>"; };
+		7A8344032CB02CDC0002DE1F /* TextFieldBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBasic.swift; sourceTree = "<group>"; };
+		7A8344052CB02F0A0002DE1F /* ToggleBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBasic.swift; sourceTree = "<group>"; };
+		7A8344072CB0300A0002DE1F /* PickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBasic.swift; sourceTree = "<group>"; };
+		7A8344092CB0310E0002DE1F /* ColorPickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerBasic.swift; sourceTree = "<group>"; };
+		7A83440B2CB031390002DE1F /* DatePickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerBasic.swift; sourceTree = "<group>"; };
 		7ADEB4152CA4DC0D00C917AC /* ForEachLoopBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLoopBasic.swift; sourceTree = "<group>"; };
 		7ADEB4172CA4DE5900C917AC /* LazyVGridBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridBasic.swift; sourceTree = "<group>"; };
 		7ADEB4192CA4EBC800C917AC /* LazyHGridBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGridBasic.swift; sourceTree = "<group>"; };
@@ -172,6 +184,12 @@
 				7ADEB4402CACF40C00C917AC /* ListBasic.swift */,
 				7ADEB4422CAD05EC00C917AC /* AlertBasic.swift */,
 				7A8343FF2CB029990002DE1F /* ContextMenuBasic.swift */,
+				7A8344012CB02BFA0002DE1F /* ActionSheetBasic.swift */,
+				7A8344032CB02CDC0002DE1F /* TextFieldBasic.swift */,
+				7A8344052CB02F0A0002DE1F /* ToggleBasic.swift */,
+				7A8344072CB0300A0002DE1F /* PickerBasic.swift */,
+				7A8344092CB0310E0002DE1F /* ColorPickerBasic.swift */,
+				7A83440B2CB031390002DE1F /* DatePickerBasic.swift */,
 				7ADEB4252CA5CB0F00C917AC /* Component */,
 				7A3FBC822C9CF40500AD6FA5 /* SwiftUIBasicApp.swift */,
 				7A3FBC842C9CF40500AD6FA5 /* ContentView.swift */,
@@ -272,8 +290,10 @@
 				7A17C82B2CA24A6400D7F67A /* HScrollViewBasic.swift in Sources */,
 				7ADEB41C2CA4EF4A00C917AC /* IgnoreSafeAreaBasic.swift in Sources */,
 				7ADEB4432CAD05EC00C917AC /* AlertBasic.swift in Sources */,
+				7A8344082CB0300A0002DE1F /* PickerBasic.swift in Sources */,
 				7ADEB4392CA9E36100C917AC /* SheetBasic.swift in Sources */,
 				7A190F002CA125090058374C /* GradientBasic.swift in Sources */,
+				7A83440C2CB031390002DE1F /* DatePickerBasic.swift in Sources */,
 				7ADEB43B2CA9E4DC00C917AC /* SheetBasic2.swift in Sources */,
 				7A190F022CA12B590058374C /* IconBasic.swift in Sources */,
 				7A190F082CA13E950058374C /* FrameBasic2.swift in Sources */,
@@ -286,6 +306,7 @@
 				7A8344002CB029990002DE1F /* ContextMenuBasic.swift in Sources */,
 				7ADEB42B2CA9BF1100C917AC /* BindingBasic.swift in Sources */,
 				7ADEB41A2CA4EBC900C917AC /* LazyHGridBasic.swift in Sources */,
+				7A8344022CB02BFA0002DE1F /* ActionSheetBasic.swift in Sources */,
 				7ADEB42D2CA9D08500C917AC /* ConditionalBasic.swift in Sources */,
 				7A17C8272CA2459900D7F67A /* SpacerBasic.swift in Sources */,
 				7ADEB4222CA5BE3600C917AC /* ExtractViewBasic.swift in Sources */,
@@ -295,8 +316,10 @@
 				7A190EFC2C9DBCFB0058374C /* ShapeBasic.swift in Sources */,
 				7A190EFE2CA1227B0058374C /* ColorBasic.swift in Sources */,
 				7A17C81F2CA2391C00D7F67A /* HStackBasic.swift in Sources */,
+				7A8344042CB02CDC0002DE1F /* TextFieldBasic.swift in Sources */,
 				7A190F0A2CA140060058374C /* BackgroundBasic.swift in Sources */,
 				7A17C82D2CA24AC600D7F67A /* ScrollViewBasic.swift in Sources */,
+				7A83440A2CB0310E0002DE1F /* ColorPickerBasic.swift in Sources */,
 				7ADEB4352CA9DB3800C917AC /* AnimationBasic.swift in Sources */,
 				7ADEB43F2CAC1B1F00C917AC /* SecondNavigationView.swift in Sources */,
 				7ADEB4412CACF40C00C917AC /* ListBasic.swift in Sources */,
@@ -310,6 +333,7 @@
 				7A190F062CA13C450058374C /* FrameBasic1.swift in Sources */,
 				7ADEB4372CA9E06E00C917AC /* TransitionBasic.swift in Sources */,
 				7A17C81D2CA2380F00D7F67A /* VStackBasic.swift in Sources */,
+				7A8344062CB02F0A0002DE1F /* ToggleBasic.swift in Sources */,
 				7ADEB4182CA4DE5900C917AC /* LazyVGridBasic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
