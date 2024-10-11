@@ -37,6 +37,14 @@
 		7A8344082CB0300A0002DE1F /* PickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8344072CB0300A0002DE1F /* PickerBasic.swift */; };
 		7A83440A2CB0310E0002DE1F /* ColorPickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8344092CB0310E0002DE1F /* ColorPickerBasic.swift */; };
 		7A83440C2CB031390002DE1F /* DatePickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83440B2CB031390002DE1F /* DatePickerBasic.swift */; };
+		7A83440E2CB95D730002DE1F /* StepperBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83440D2CB95D730002DE1F /* StepperBasic.swift */; };
+		7A8344102CB95E0C0002DE1F /* SliderBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83440F2CB95E0C0002DE1F /* SliderBasic.swift */; };
+		7A8344122CB95E400002DE1F /* TabViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8344112CB95E400002DE1F /* TabViewBasic.swift */; };
+		7A8344162CB960180002DE1F /* DarkModeBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8344152CB960180002DE1F /* DarkModeBasic.swift */; };
+		7A8344182CB961F00002DE1F /* OnAppearBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8344172CB961F00002DE1F /* OnAppearBasic.swift */; };
+		7A83441A2CB964D40002DE1F /* OnTabGestureBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8344192CB964D40002DE1F /* OnTabGestureBasic.swift */; };
+		7A8344222CB96BFE0002DE1F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8344212CB96BFE0002DE1F /* UserModel.swift */; };
+		7A8344242CB96CD50002DE1F /* UserModelBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8344232CB96CD50002DE1F /* UserModelBasic.swift */; };
 		7ADEB4162CA4DC0D00C917AC /* ForEachLoopBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB4152CA4DC0D00C917AC /* ForEachLoopBasic.swift */; };
 		7ADEB4182CA4DE5900C917AC /* LazyVGridBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB4172CA4DE5900C917AC /* LazyVGridBasic.swift */; };
 		7ADEB41A2CA4EBC900C917AC /* LazyHGridBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB4192CA4EBC800C917AC /* LazyHGridBasic.swift */; };
@@ -92,6 +100,14 @@
 		7A8344072CB0300A0002DE1F /* PickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBasic.swift; sourceTree = "<group>"; };
 		7A8344092CB0310E0002DE1F /* ColorPickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerBasic.swift; sourceTree = "<group>"; };
 		7A83440B2CB031390002DE1F /* DatePickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerBasic.swift; sourceTree = "<group>"; };
+		7A83440D2CB95D730002DE1F /* StepperBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperBasic.swift; sourceTree = "<group>"; };
+		7A83440F2CB95E0C0002DE1F /* SliderBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBasic.swift; sourceTree = "<group>"; };
+		7A8344112CB95E400002DE1F /* TabViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBasic.swift; sourceTree = "<group>"; };
+		7A8344152CB960180002DE1F /* DarkModeBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeBasic.swift; sourceTree = "<group>"; };
+		7A8344172CB961F00002DE1F /* OnAppearBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearBasic.swift; sourceTree = "<group>"; };
+		7A8344192CB964D40002DE1F /* OnTabGestureBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTabGestureBasic.swift; sourceTree = "<group>"; };
+		7A8344212CB96BFE0002DE1F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		7A8344232CB96CD50002DE1F /* UserModelBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelBasic.swift; sourceTree = "<group>"; };
 		7ADEB4152CA4DC0D00C917AC /* ForEachLoopBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLoopBasic.swift; sourceTree = "<group>"; };
 		7ADEB4172CA4DE5900C917AC /* LazyVGridBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridBasic.swift; sourceTree = "<group>"; };
 		7ADEB4192CA4EBC800C917AC /* LazyHGridBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGridBasic.swift; sourceTree = "<group>"; };
@@ -190,6 +206,13 @@
 				7A8344072CB0300A0002DE1F /* PickerBasic.swift */,
 				7A8344092CB0310E0002DE1F /* ColorPickerBasic.swift */,
 				7A83440B2CB031390002DE1F /* DatePickerBasic.swift */,
+				7A83440D2CB95D730002DE1F /* StepperBasic.swift */,
+				7A83440F2CB95E0C0002DE1F /* SliderBasic.swift */,
+				7A8344112CB95E400002DE1F /* TabViewBasic.swift */,
+				7A8344152CB960180002DE1F /* DarkModeBasic.swift */,
+				7A8344172CB961F00002DE1F /* OnAppearBasic.swift */,
+				7A8344192CB964D40002DE1F /* OnTabGestureBasic.swift */,
+				7A83441B2CB96B9A0002DE1F /* MVVM */,
 				7ADEB4252CA5CB0F00C917AC /* Component */,
 				7A3FBC822C9CF40500AD6FA5 /* SwiftUIBasicApp.swift */,
 				7A3FBC842C9CF40500AD6FA5 /* ContentView.swift */,
@@ -205,6 +228,39 @@
 				7A3FBC892C9CF40600AD6FA5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7A83441B2CB96B9A0002DE1F /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				7A83441E2CB96BBF0002DE1F /* Model */,
+				7A83441D2CB96BAF0002DE1F /* ViewModel */,
+				7A83441C2CB96BA70002DE1F /* View */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		7A83441C2CB96BA70002DE1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A8344232CB96CD50002DE1F /* UserModelBasic.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A83441D2CB96BAF0002DE1F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7A83441E2CB96BBF0002DE1F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A8344212CB96BFE0002DE1F /* UserModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		7ADEB4252CA5CB0F00C917AC /* Component */ = {
@@ -288,6 +344,7 @@
 			files = (
 				7A190F042CA131DB0058374C /* ImageBasic.swift in Sources */,
 				7A17C82B2CA24A6400D7F67A /* HScrollViewBasic.swift in Sources */,
+				7A8344182CB961F00002DE1F /* OnAppearBasic.swift in Sources */,
 				7ADEB41C2CA4EF4A00C917AC /* IgnoreSafeAreaBasic.swift in Sources */,
 				7ADEB4432CAD05EC00C917AC /* AlertBasic.swift in Sources */,
 				7A8344082CB0300A0002DE1F /* PickerBasic.swift in Sources */,
@@ -301,6 +358,7 @@
 				7ADEB4242CA5CAC800C917AC /* ExtractSubViewBasic.swift in Sources */,
 				7A3FBC852C9CF40500AD6FA5 /* ContentView.swift in Sources */,
 				7ADEB4292CA67CDB00C917AC /* BindingChild.swift in Sources */,
+				7A8344102CB95E0C0002DE1F /* SliderBasic.swift in Sources */,
 				7ADEB43D2CAC19B700C917AC /* NavigationBasic.swift in Sources */,
 				7ADEB42F2CA9D47400C917AC /* TernaryBasic.swift in Sources */,
 				7A8344002CB029990002DE1F /* ContextMenuBasic.swift in Sources */,
@@ -310,6 +368,7 @@
 				7ADEB42D2CA9D08500C917AC /* ConditionalBasic.swift in Sources */,
 				7A17C8272CA2459900D7F67A /* SpacerBasic.swift in Sources */,
 				7ADEB4222CA5BE3600C917AC /* ExtractViewBasic.swift in Sources */,
+				7A8344122CB95E400002DE1F /* TabViewBasic.swift in Sources */,
 				7A17C8252CA23F1500D7F67A /* PaddingBasic.swift in Sources */,
 				7ADEB4272CA5CB3C00C917AC /* ItemBasic.swift in Sources */,
 				7ADEB4162CA4DC0D00C917AC /* ForEachLoopBasic.swift in Sources */,
@@ -317,10 +376,13 @@
 				7A190EFE2CA1227B0058374C /* ColorBasic.swift in Sources */,
 				7A17C81F2CA2391C00D7F67A /* HStackBasic.swift in Sources */,
 				7A8344042CB02CDC0002DE1F /* TextFieldBasic.swift in Sources */,
+				7A8344242CB96CD50002DE1F /* UserModelBasic.swift in Sources */,
 				7A190F0A2CA140060058374C /* BackgroundBasic.swift in Sources */,
 				7A17C82D2CA24AC600D7F67A /* ScrollViewBasic.swift in Sources */,
 				7A83440A2CB0310E0002DE1F /* ColorPickerBasic.swift in Sources */,
+				7A83440E2CB95D730002DE1F /* StepperBasic.swift in Sources */,
 				7ADEB4352CA9DB3800C917AC /* AnimationBasic.swift in Sources */,
+				7A83441A2CB964D40002DE1F /* OnTabGestureBasic.swift in Sources */,
 				7ADEB43F2CAC1B1F00C917AC /* SecondNavigationView.swift in Sources */,
 				7ADEB4412CACF40C00C917AC /* ListBasic.swift in Sources */,
 				7A17C8292CA2486100D7F67A /* VScrollViewBasic.swift in Sources */,
@@ -331,7 +393,9 @@
 				7A17C8232CA239F100D7F67A /* StackBasic.swift in Sources */,
 				7A3FBC832C9CF40500AD6FA5 /* SwiftUIBasicApp.swift in Sources */,
 				7A190F062CA13C450058374C /* FrameBasic1.swift in Sources */,
+				7A8344222CB96BFE0002DE1F /* UserModel.swift in Sources */,
 				7ADEB4372CA9E06E00C917AC /* TransitionBasic.swift in Sources */,
+				7A8344162CB960180002DE1F /* DarkModeBasic.swift in Sources */,
 				7A17C81D2CA2380F00D7F67A /* VStackBasic.swift in Sources */,
 				7A8344062CB02F0A0002DE1F /* ToggleBasic.swift in Sources */,
 				7ADEB4182CA4DE5900C917AC /* LazyVGridBasic.swift in Sources */,
