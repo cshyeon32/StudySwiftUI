@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A0C49562CBE7BAC00E92A87 /* IOSDeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C49552CBE7BAC00E92A87 /* IOSDeviceModel.swift */; };
+		7A0C49582CBE7C1400E92A87 /* IOSDeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C49572CBE7C1400E92A87 /* IOSDeviceViewModel.swift */; };
+		7A0C495A2CBE7CC700E92A87 /* IOSDeviceView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C49592CBE7CC700E92A87 /* IOSDeviceView1.swift */; };
+		7A0C495C2CBE7CEA00E92A87 /* IOSDeviceView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C495B2CBE7CEA00E92A87 /* IOSDeviceView2.swift */; };
+		7A0C495E2CBE7D0800E92A87 /* IOSDeviceView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C495D2CBE7D0800E92A87 /* IOSDeviceView3.swift */; };
+		7A0C49602CBE80EF00E92A87 /* AppStorageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C495F2CBE80EF00E92A87 /* AppStorageBasic.swift */; };
 		7A17C81D2CA2380F00D7F67A /* VStackBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17C81C2CA2380F00D7F67A /* VStackBasic.swift */; };
 		7A17C81F2CA2391C00D7F67A /* HStackBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17C81E2CA2391C00D7F67A /* HStackBasic.swift */; };
 		7A17C8212CA2396800D7F67A /* ZStackBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17C8202CA2396800D7F67A /* ZStackBasic.swift */; };
@@ -45,6 +51,9 @@
 		7A83441A2CB964D40002DE1F /* OnTabGestureBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8344192CB964D40002DE1F /* OnTabGestureBasic.swift */; };
 		7A8344222CB96BFE0002DE1F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8344212CB96BFE0002DE1F /* UserModel.swift */; };
 		7A8344242CB96CD50002DE1F /* UserModelBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8344232CB96CD50002DE1F /* UserModelBasic.swift */; };
+		7A9B72A52CB9FA6100DCEA54 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9B72A42CB9FA6100DCEA54 /* FruitModel.swift */; };
+		7A9B72A72CB9FACD00DCEA54 /* FruitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9B72A62CB9FACD00DCEA54 /* FruitViewModel.swift */; };
+		7A9B72A92CB9FFEE00DCEA54 /* FruitBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9B72A82CB9FFEE00DCEA54 /* FruitBasic.swift */; };
 		7ADEB4162CA4DC0D00C917AC /* ForEachLoopBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB4152CA4DC0D00C917AC /* ForEachLoopBasic.swift */; };
 		7ADEB4182CA4DE5900C917AC /* LazyVGridBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB4172CA4DE5900C917AC /* LazyVGridBasic.swift */; };
 		7ADEB41A2CA4EBC900C917AC /* LazyHGridBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEB4192CA4EBC800C917AC /* LazyHGridBasic.swift */; };
@@ -69,6 +78,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A0C49552CBE7BAC00E92A87 /* IOSDeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceModel.swift; sourceTree = "<group>"; };
+		7A0C49572CBE7C1400E92A87 /* IOSDeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceViewModel.swift; sourceTree = "<group>"; };
+		7A0C49592CBE7CC700E92A87 /* IOSDeviceView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView1.swift; sourceTree = "<group>"; };
+		7A0C495B2CBE7CEA00E92A87 /* IOSDeviceView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView2.swift; sourceTree = "<group>"; };
+		7A0C495D2CBE7D0800E92A87 /* IOSDeviceView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView3.swift; sourceTree = "<group>"; };
+		7A0C495F2CBE80EF00E92A87 /* AppStorageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageBasic.swift; sourceTree = "<group>"; };
 		7A17C81C2CA2380F00D7F67A /* VStackBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackBasic.swift; sourceTree = "<group>"; };
 		7A17C81E2CA2391C00D7F67A /* HStackBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackBasic.swift; sourceTree = "<group>"; };
 		7A17C8202CA2396800D7F67A /* ZStackBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackBasic.swift; sourceTree = "<group>"; };
@@ -108,6 +123,9 @@
 		7A8344192CB964D40002DE1F /* OnTabGestureBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTabGestureBasic.swift; sourceTree = "<group>"; };
 		7A8344212CB96BFE0002DE1F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		7A8344232CB96CD50002DE1F /* UserModelBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelBasic.swift; sourceTree = "<group>"; };
+		7A9B72A42CB9FA6100DCEA54 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
+		7A9B72A62CB9FACD00DCEA54 /* FruitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitViewModel.swift; sourceTree = "<group>"; };
+		7A9B72A82CB9FFEE00DCEA54 /* FruitBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitBasic.swift; sourceTree = "<group>"; };
 		7ADEB4152CA4DC0D00C917AC /* ForEachLoopBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLoopBasic.swift; sourceTree = "<group>"; };
 		7ADEB4172CA4DE5900C917AC /* LazyVGridBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridBasic.swift; sourceTree = "<group>"; };
 		7ADEB4192CA4EBC800C917AC /* LazyHGridBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGridBasic.swift; sourceTree = "<group>"; };
@@ -212,6 +230,7 @@
 				7A8344152CB960180002DE1F /* DarkModeBasic.swift */,
 				7A8344172CB961F00002DE1F /* OnAppearBasic.swift */,
 				7A8344192CB964D40002DE1F /* OnTabGestureBasic.swift */,
+				7A0C495F2CBE80EF00E92A87 /* AppStorageBasic.swift */,
 				7A83441B2CB96B9A0002DE1F /* MVVM */,
 				7ADEB4252CA5CB0F00C917AC /* Component */,
 				7A3FBC822C9CF40500AD6FA5 /* SwiftUIBasicApp.swift */,
@@ -244,6 +263,10 @@
 			isa = PBXGroup;
 			children = (
 				7A8344232CB96CD50002DE1F /* UserModelBasic.swift */,
+				7A9B72A82CB9FFEE00DCEA54 /* FruitBasic.swift */,
+				7A0C49592CBE7CC700E92A87 /* IOSDeviceView1.swift */,
+				7A0C495B2CBE7CEA00E92A87 /* IOSDeviceView2.swift */,
+				7A0C495D2CBE7D0800E92A87 /* IOSDeviceView3.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -251,6 +274,8 @@
 		7A83441D2CB96BAF0002DE1F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				7A9B72A62CB9FACD00DCEA54 /* FruitViewModel.swift */,
+				7A0C49572CBE7C1400E92A87 /* IOSDeviceViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -259,6 +284,8 @@
 			isa = PBXGroup;
 			children = (
 				7A8344212CB96BFE0002DE1F /* UserModel.swift */,
+				7A9B72A42CB9FA6100DCEA54 /* FruitModel.swift */,
+				7A0C49552CBE7BAC00E92A87 /* IOSDeviceModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -344,6 +371,7 @@
 			files = (
 				7A190F042CA131DB0058374C /* ImageBasic.swift in Sources */,
 				7A17C82B2CA24A6400D7F67A /* HScrollViewBasic.swift in Sources */,
+				7A0C49602CBE80EF00E92A87 /* AppStorageBasic.swift in Sources */,
 				7A8344182CB961F00002DE1F /* OnAppearBasic.swift in Sources */,
 				7ADEB41C2CA4EF4A00C917AC /* IgnoreSafeAreaBasic.swift in Sources */,
 				7ADEB4432CAD05EC00C917AC /* AlertBasic.swift in Sources */,
@@ -363,6 +391,7 @@
 				7ADEB42F2CA9D47400C917AC /* TernaryBasic.swift in Sources */,
 				7A8344002CB029990002DE1F /* ContextMenuBasic.swift in Sources */,
 				7ADEB42B2CA9BF1100C917AC /* BindingBasic.swift in Sources */,
+				7A0C495E2CBE7D0800E92A87 /* IOSDeviceView3.swift in Sources */,
 				7ADEB41A2CA4EBC900C917AC /* LazyHGridBasic.swift in Sources */,
 				7A8344022CB02BFA0002DE1F /* ActionSheetBasic.swift in Sources */,
 				7ADEB42D2CA9D08500C917AC /* ConditionalBasic.swift in Sources */,
@@ -374,15 +403,20 @@
 				7ADEB4162CA4DC0D00C917AC /* ForEachLoopBasic.swift in Sources */,
 				7A190EFC2C9DBCFB0058374C /* ShapeBasic.swift in Sources */,
 				7A190EFE2CA1227B0058374C /* ColorBasic.swift in Sources */,
+				7A0C49582CBE7C1400E92A87 /* IOSDeviceViewModel.swift in Sources */,
 				7A17C81F2CA2391C00D7F67A /* HStackBasic.swift in Sources */,
 				7A8344042CB02CDC0002DE1F /* TextFieldBasic.swift in Sources */,
+				7A9B72A52CB9FA6100DCEA54 /* FruitModel.swift in Sources */,
 				7A8344242CB96CD50002DE1F /* UserModelBasic.swift in Sources */,
 				7A190F0A2CA140060058374C /* BackgroundBasic.swift in Sources */,
 				7A17C82D2CA24AC600D7F67A /* ScrollViewBasic.swift in Sources */,
 				7A83440A2CB0310E0002DE1F /* ColorPickerBasic.swift in Sources */,
 				7A83440E2CB95D730002DE1F /* StepperBasic.swift in Sources */,
 				7ADEB4352CA9DB3800C917AC /* AnimationBasic.swift in Sources */,
+				7A9B72A72CB9FACD00DCEA54 /* FruitViewModel.swift in Sources */,
+				7A0C49562CBE7BAC00E92A87 /* IOSDeviceModel.swift in Sources */,
 				7A83441A2CB964D40002DE1F /* OnTabGestureBasic.swift in Sources */,
+				7A0C495A2CBE7CC700E92A87 /* IOSDeviceView1.swift in Sources */,
 				7ADEB43F2CAC1B1F00C917AC /* SecondNavigationView.swift in Sources */,
 				7ADEB4412CACF40C00C917AC /* ListBasic.swift in Sources */,
 				7A17C8292CA2486100D7F67A /* VScrollViewBasic.swift in Sources */,
@@ -391,6 +425,8 @@
 				7A17C82F2CA24E4B00D7F67A /* InitEnumBasic.swift in Sources */,
 				7A17C8212CA2396800D7F67A /* ZStackBasic.swift in Sources */,
 				7A17C8232CA239F100D7F67A /* StackBasic.swift in Sources */,
+				7A9B72A92CB9FFEE00DCEA54 /* FruitBasic.swift in Sources */,
+				7A0C495C2CBE7CEA00E92A87 /* IOSDeviceView2.swift in Sources */,
 				7A3FBC832C9CF40500AD6FA5 /* SwiftUIBasicApp.swift in Sources */,
 				7A190F062CA13C450058374C /* FrameBasic1.swift in Sources */,
 				7A8344222CB96BFE0002DE1F /* UserModel.swift in Sources */,
